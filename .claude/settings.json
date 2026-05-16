@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep *)",
+      "Bash(xargs ls *)",
+      "Bash(php artisan *)",
+      "Bash(php -r ' *)",
+      "Bash(grep -v \"^$\\\\|<!--\\\\|<!\\\\|{{\\\\|@\\\\|<script\\\\|<link\\\\|<meta\")",
+      "Bash(grep -v \"^$\\\\|<!--\\\\|{{\\\\|@\\\\|<script\\\\|<link\\\\|<meta\\\\|class=\\\\|style=\")",
+      "Bash(grep -v \"^$\\\\|<\\\\|{\\\\|@\")"
+    ]
+  }
+}
